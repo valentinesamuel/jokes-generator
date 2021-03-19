@@ -8,14 +8,14 @@
 }
 
 .container {
-  height: 100vh;
+  height: 92.2vh;
   display: flex;
   align-items: center;
 
   .card {
     padding: 20px;
     background-color: rgb(233, 233, 233);
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 
     h1 {
@@ -63,4 +63,12 @@
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  font-size: 1.3rem;
+
+  p {
+    color: white;
+  }
+  a {
+    color: white;
+  }
 }
