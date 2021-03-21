@@ -25,6 +25,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 480px) {
+  .container .card {
+    width: 90%;
+  }
+}
+
 .container .card h1 {
   margin-bottom: 40px;
   font-family: "Merriweather", serif;
