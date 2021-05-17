@@ -19,11 +19,7 @@ async function getJokes() {
 getJokes();
 btn.addEventListener("click",
       (e) => {
-
             getJokes();
-
-
-
             joke.innerHTML = responseAnswer.setup
             answer.innerHTML = responseAnswer.punchline
 
